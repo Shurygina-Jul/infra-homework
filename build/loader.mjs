@@ -8,6 +8,7 @@ export async function loadYAML(modulePath) {
   const currentModulePath = new URL(import.meta.url).pathname;
   const currentModuleDir = path.dirname(currentModulePath);
   const filePath = path.resolve(path.join(currentModuleDir, modulePath));
+  console.log("filePath", filePath);
 
   try {
     const fileContent = await fs.readFile(filePath, "utf8");
