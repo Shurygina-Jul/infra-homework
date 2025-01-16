@@ -8,7 +8,7 @@
 
 Изучите код server.js, он ожидает что у него будет доступен файл с секретами внутри контейнера по пути `/var/static/secrets.js`.
 
-Также он ожидает что USERNAME будет лежать в process.env (kholstinin).
+Также он ожидает что USERNAME будет лежать в process.env (kholstinevich).
 
 Для тестирования используйте `yarn test:docker`.
 
